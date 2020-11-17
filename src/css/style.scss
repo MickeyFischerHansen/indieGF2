@@ -1,1 +1,132 @@
 @import "base";
+
+body{
+    background-color: black;
+}
+
+.header_header{
+    background-color: black;
+    opacity: 100%;
+}
+
+.header_nav{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+    align-items: center;
+    background-color: rgba(0, 0, 255, 0.349);
+    border: 3px solid white;
+
+}
+
+.nav_li{
+    color: white;
+    list-style-type: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: Anton;
+    letter-spacing: 0.3em;
+
+}
+
+.background_img{
+    background-image: url(../images/mntn.jpg);
+    height: 800px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    opacity: 100%;
+    
+    z-index: 1;
+   
+    
+    
+}
+
+.background_img_h1{
+    color: white;
+    text-transform: uppercase;
+    font-family: Anton;
+    letter-spacing: 0.3em;
+    font-size: 100px;
+    margin: 0px; 
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    opacity: 100%;
+    position: relative;
+    z-index: 2;
+    
+    
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    background-color: black;
+    opacity: 50%;
+    
+}
+
+.main_section{
+    border-top: 3px solid white;
+    background-color: black;
+    background-image: url(../images/forestBackground.png);
+    background-size: cover;
+    height: 800px;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+
+}
+
+.circle_div_h2{
+    margin: 0px;
+    text-transform: uppercase;
+    font-family: Anton;
+    letter-spacing: 0.2em;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
+.circle_div1{
+    background-image: url(../images/forest.jpg);
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    border-radius: 50%;
+    box-shadow:inset 0 0 20px #000000;
+    
+}
+
+.circle_div2{
+    background-image: url(../images/beach.jpg);
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    border-radius: 50%;
+    box-shadow:inset 0 0 20px #000000;
+}
+
+.circle_div3{
+    background-image: url(../images/hiking.jpg);
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    border-radius: 50%;
+    box-shadow:inset 0 0 20px #000000;
+}
