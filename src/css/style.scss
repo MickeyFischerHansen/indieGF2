@@ -4,6 +4,10 @@ body{
     background-color: black;
 }
 
+a{
+    text-decoration: none;
+}
+
 .header_header{
     background-color: black;
     opacity: 100%;
@@ -20,7 +24,7 @@ body{
 }
 
 .nav_li{
-    color: white;
+    color: rgba(255, 255, 255, 0.719);
     list-style-type: none;
     font-size: 20px;
     text-transform: uppercase;
@@ -129,4 +133,22 @@ body{
     font-size: 25px;
     border-radius: 50%;
     box-shadow:inset 0 0 20px #000000;
+}
+
+.footer_footer{
+    height: 200px;
+    background-color: rgba(0, 245, 0, 0.404);
+    border: 3px solid white;
+    color: rgba(255, 255, 255, 0.767);
+    text-transform: uppercase;
+    font-family: Anton;
+    letter-spacing: 0.1em;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer_p{
+    width: 25%;
+    
 }
